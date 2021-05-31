@@ -1,0 +1,94 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+@media (min-width: 800px){
+body{background-color: white;}
+.menu{display: flex;background-color: #313130;justify-content:space-between;}
+h1{margin-top: 15px;margin-bottom: 15px;margin-left: 15px;font-size: 35px;
+  font-family: 'Julius Sans One', sans-serif;}
+a{color: #008080;text-decoration: none}
+.link{display: flex; justify-content: flex-start;margin-top: 20px;margin-bottom: 20px;
+  margin-right: 20px}
+.home{margin-left: 25px;width: 32px}
+.about{margin-left: 25px;width: 32px}
+.contact{margin-left: 25px;margin-top: 5px;width: 33px}
+.container{color: #008080;display: flex;background-color: #353739;justify-content: space-around;
+  padding-bottom: 400px;flex-direction: column;align-items: center;}
+.blocco1{display: flex;justify-content: space-around;}
+.presentation{display: flex;text-align: center;padding-top: 120px;position: relative;
+  top: 100px;font-family: 'Poiret One', cursive; font-size: 50px;width: 400px;height: 400px}
+.photo{display: block;margin-top: 150px;margin-bottom: 100px;border-radius: 300px;margin-left: 100px}
+.presentation2{color: #008080;display: flex;position: relative;font-family: 'Poiret One', cursive;
+  top: 300px;text-align: center;font-size: 70px;width: 800px;}
+.html{margin-top: 700px;margin-right: 400px}
+.css{margin-top: -450px;margin-left: 400px}
+.js{margin-top: 100px;margin-right: 400px}
+.vue{margin-left: 400px;margin-top: -450px}
+.wp{margin-top: -450px;margin-right: 400px}
+.swift{margin-left: 400px;margin-top: 80px;}
+.footer{display: flex;height: 85px;background-color: #313130;justify-content: space-around;
+ font-family: 'Julius Sans One', sans-serif}
+.container3{display: flex;flex-direction: column;padding-bottom: 300px;align-items: center;}
+.presentation3{display: flex;position: relative;top: 50px;font-family: 'Poiret One', cursive;
+ font-size: 35px;width: 700px}
+h2{font-family: 'Poiret One', cursive;font-size: 60px;margin-left: 30px;margin-top: 130px}
+.utente{display: flex;background-color: #353739;margin-left: 100px;margin-top: 130px;
+  justify-content: space-around; flex-direction: column;align-items: center;}
+.modulo-utente {font-family: 'Poiret One', cursive;font-size: 30px;
+  margin-left: -130px;display: flex;flex-wrap: wrap;}
+input{font-size: 20px;margin-left: 20px;font-family: 'Poiret One', cursive;color: #008080;
+  border-radius: 10px;background-color: #353739;border-color: #008080}
+.modulo-email{display: flex;flex-wrap: wrap;font-family: 'Poiret One', cursive;font-size: 30px;
+  margin-left: -120px; margin-top: 50px;}
+textarea{border-radius: 10px;margin-top: 50px;margin-left: -120px;resize: none;
+  padding-bottom: 100px;padding-left: 10px;padding-right: 10px;padding-top: 5px;width: 500px;
+  font-size: 15px;color: #008080;background-color: #353739;border-color: #008080}
+button{color: #008080;font-size: 20px;background-color: #353739;padding-top: 20px;padding-bottom: 20px;
+  border-color: #008080;border: 1px solid;border-radius: 100px;margin-left: -120px;margin-top: 60px;
+  cursor: pointer;width: 65px}
+.footer2{display: flex;height: 85px;margin-top: 200px;background-color: #313130;
+  justify-content: space-around;font-family: 'Julius Sans One', sans-serif;text-align: center;}
+.social{font-family: 'Julius Sans One', sans-serif;font-size: 30px;margin-top: 20px}
+}
+@media (max-width: 799px) {
+body{background-color: #353739}
+.menu{display: flex;background-color: #313130;justify-content:space-between;}
+h1{margin-top: 20px;margin-bottom: 15px;margin-left: 15px;font-size: 20px;
+  font-family: 'Julius Sans One', sans-serif;}
+a{color: #008080;text-decoration: none}
+.link{display: flex; justify-content: flex-start;margin-top: 20px;margin-bottom: 20px;
+  margin-right: 20px}
+.home{margin-left: 25px;width: 25px}
+.about{margin-left: 25px;width: 25px}
+.contact{margin-left: 25px;margin-top: 5px;width: 26px}
+.container{color: #008080;display: flex;background-color: #353739;justify-content: space-around;
+  flex-wrap: wrap;padding-bottom: 400px;align-items: center;}
+.presentation{display: flex;text-align: center;padding-top: 120px;position: relative;
+  top: 700px;font-family: 'Poiret One', cursive; font-size: 45px;width: 400px;height: 400px}
+.photo{display: block;margin-top: -300px;margin-bottom: 100px;border-radius: 300px}
+.presentation2{color: #008080;display: flex;position: relative;font-family: 'Poiret One', cursive;
+  top: 800px;width: 500px;text-align: center;font-size: 45px;padding: inherit;}
+.linguaggi{display: flex;flex-direction: column;padding-top: 700px;}
+.footer{display: flex;background-color: #313130;justify-content: center;
+  font-family: 'Julius Sans One', sans-serif;height: 70px}
+.container3{display: flex;flex-direction: column;padding-bottom: 200px;align-items: center;}
+.presentation3{display: flex;position: relative;top: 50px;font-family: 'Poiret One', cursive;
+ text-align: center;font-size: 25px;width: 400px}
+h2{display: flex;justify-content: center;margin-top: 80px;font-family: 'Poiret One', cursive;
+  font-size: 40px;width: 400px;}
+.utente{display: flex;background-color: #353739;margin-left: 100px;margin-top: 130px;
+  justify-content: space-around; flex-direction: column;align-items: center;}
+.modulo-utente {font-family: 'Poiret One', cursive;font-size: 25px;
+  margin-left: -130px;display: flex;flex-wrap: wrap;}
+input{font-size: 20px;margin-left: 20px;font-family: 'Poiret One', cursive;color: #008080;
+  border-radius: 10px;background-color: #353739;border-color: #008080}
+.modulo-email{display: flex;flex-wrap: wrap;font-family: 'Poiret One', cursive;font-size: 25px;
+  margin-left: -120px; margin-top: 50px;}
+textarea{border-radius: 10px;margin-top: 50px;margin-left: -120px;resize: none;
+  padding-bottom: 100px;padding-left: 10px;padding-right: 10px;padding-top: 5px;width: 300px;
+  font-size: 15px;color: #008080;background-color: #353739;border-color: #008080}
+button{color: #008080;font-size: 20px;background-color: #353739;padding-top: 20px;padding-bottom: 20px;
+  border-color: #008080;border: 1px solid;border-radius: 100px;margin-left: -120px;margin-top: 60px;
+  cursor: pointer;width: 65px}
+.footer2{display: flex;height: 70px;margin-top: 200px;background-color: #313130;
+  justify-content:center;font-family: 'Julius Sans One', sans-serif;text-align: center;}
+.social{font-family: 'Julius Sans One', sans-serif;font-size: 25px;margin-top: 15px}
+}
